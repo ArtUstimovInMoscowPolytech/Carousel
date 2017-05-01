@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
+﻿using Carousel.Views;
 using Xamarin.Forms;
 
 namespace Carousel
@@ -13,7 +9,7 @@ namespace Carousel
         {
             InitializeComponent();
 
-            MainPage = new Carousel.MainPage();
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()
