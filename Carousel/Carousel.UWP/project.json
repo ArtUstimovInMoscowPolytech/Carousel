@@ -1,6 +1,7 @@
 ﻿{
   "dependencies": {
     "CarouselView.FormsPlugin": "4.2.1",
+    "DLToolkit.Forms.Controls.FlowListView": "2.0.4",
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.1.0",
     "Xamarin.Forms": "2.3.3.193"
   },

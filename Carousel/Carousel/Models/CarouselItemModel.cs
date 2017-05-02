@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms;
+﻿using System.Runtime.Serialization;
+using Xamarin.Forms;
 
 namespace Carousel.Models
 {

@@ -6,7 +6,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
-
+using Carousel.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -19,6 +19,8 @@ namespace Carousel.Views
         public ListViewPage()
         {
             InitializeComponent();
+            var vm = new CarouselViewPageViewModel();
+            listView.FlowItemsSource = vm.Items;
         }
     }
 }

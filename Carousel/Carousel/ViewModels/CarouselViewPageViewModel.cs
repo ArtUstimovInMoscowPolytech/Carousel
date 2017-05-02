@@ -6,7 +6,8 @@ namespace Carousel.ViewModels
 {
     public class CarouselViewPageViewModel
     {
-        public ObservableCollection<CarouselItemModel> Items = new ObservableCollection<CarouselItemModel>
+        public ObservableCollection<CarouselItemModel> Items = 
+            new ObservableCollection<CarouselItemModel>
         {
             new CarouselItemModel
             {
@@ -22,7 +23,22 @@ namespace Carousel.ViewModels
             {
                 Title = "Синий",
                 Color = Color.Blue,
-            }
+            },
+            new CarouselItemModel
+            {
+                Title = "Жёлтый",
+                Color = Color.Yellow,
+            },
+            new CarouselItemModel
+            {
+                Title = "Оранжевый",
+                Color = Color.Orange,
+            },
+            new CarouselItemModel
+            {
+                Title = "Серый",
+                Color = Color.Gray,
+            },
         };
     }
 }
